@@ -21,7 +21,7 @@ Before running this setup, ensure you have the following:
 
 ### Building the Docker Image
 
-1. Clone this repository and navigate to the directory containing the `Dockerfile`.
+1. Clone this repository and navigate to Ai-Infrastructure/LLM_in_Docker containing the `Dockerfile`.
 
    ```bash
    git clone <repository-url>
@@ -33,13 +33,27 @@ Before running this setup, ensure you have the following:
    ```bash
    docker build -t llm-text-gen-webui .
    ```
+   Or download the image from our Docker repository usinng Docker CLI :
+   =>>> docker pull pinkelephants/rivalscope:latest <===
 
 ### Running the Docker Container
 
 To run the container and expose the necessary ports, use:
 
 ```bash
-docker run --gpus all -p 7860:7860 -p 5000:5000 llm-text-gen-webui
+sudo docker run -d --name text-gen-webui \
+  --gpus all \
+  -p 7860:7860 \
+  -p 5000:5000 \
+  -v /LLM_models:/app/models \
+  -v ~/loras:/app/loras \
+  -v ~/training:/app/training \
+  -e NVIDIA_VISIBLE_DEVICES=all \
+  -m 98304m \
+  --memory-reservation 65536m \
+  --cpus 28 \
+  --shm-size 16384m \
+  text-gen-webui:latest
 ```
 
 - **Port 7860**: Access the Text Generation Web UI.
