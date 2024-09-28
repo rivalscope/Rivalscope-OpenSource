@@ -34,7 +34,8 @@ Before running this setup, ensure you have the following:
    docker build -t llm-text-gen-webui .
    ```
    Or download the image from our Docker repository usinng Docker CLI :
-   =>>> docker pull pinkelephants/rivalscope:latest <===
+
+   ```docker pull pinkelephants/rivalscope:latest```
 
 ### Running the Docker Container
 
