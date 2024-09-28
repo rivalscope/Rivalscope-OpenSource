@@ -68,11 +68,3 @@ We welcome contributions to enhance this project. Feel free to open issues or su
 
 Thank you for using the LLM Text Generation Web UI Docker setup! Happy coding!
 ```
-
-### How to Use
-
-1. **Create a `README.md` file** in the same directory as your `Dockerfile` and copy the above content into it.
-
-2. **Modify the `<repository-url>` and `<repository-directory>`** placeholders with your actual repository information if applicable.
-
-This `README.md` file provides clear instructions on how to build, run, and access the Dockerized LLM Text Generation Web UI, as well as details about features and resources. Let me know if you need any changes or additional information!
