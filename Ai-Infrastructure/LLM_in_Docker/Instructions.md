@@ -35,7 +35,7 @@ Before running this setup, ensure you have the following:
    ```
    Or download the image from our Docker repository usinng Docker CLI :
 
-   ```docker pull pinkelephants/rivalscope:latest```
+   ```docker pull pinkelephants/llm_nvidia_container_rivalscope:latest```
 
 ### Running the Docker Container
 
