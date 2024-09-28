@@ -1,8 +1,8 @@
-#RivalScope: AI Research, Custom AI Models, and Automation Tools
+RivalScope: AI Research, Custom AI Models, and Automation Tools
 
 Welcome to the RivalScope Open Source Repository! This repository offers tools and resources designed to simplify AI development, foster collaboration, and support community with data-driven solutions, and AI research.
 
-#🌍 Our Mission
+🌍 Our Mission
 
 At RivalScope, we are focused on pushing the boundaries of AI development by offering custom AI models and innovative solutions that empower businesses and contribute to the open-source AI community.
 
@@ -12,7 +12,7 @@ At RivalScope, we are focused on pushing the boundaries of AI development by off
 
 For a detailed setup guide, tutorials, and more information on the tools provided in this repository, check the readme.md files in specific directory. 
 
-#🤝 Contributing
+🤝 Contributing
 
 We welcome contributions from the AI community! Whether you're fixing bugs, adding features, or improving our documentation, feel free to get involved:
 
@@ -24,11 +24,11 @@ We welcome contributions from the AI community! Whether you're fixing bugs, addi
 
 We also encourage collaboration on open-source projects aimed at simplifying AI development for everyone.
 
-#🛡️ License
+🛡️ License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-#🌟 Acknowledgements
+🌟 Acknowledgements
 
     Special thanks to the open-source AI community for your inspiration and collaboration.
     Gratitude to the RivalScope team for their dedication to innovation and development.
