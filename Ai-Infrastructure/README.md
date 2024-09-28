@@ -1,9 +1,9 @@
-🧠 LLM Text Generation Web UI Docker Setup
+##🧠 LLM Text Generation Web UI Docker Setup
 
 This repository provides a Docker-based environment for running large language models (LLMs) with support 
 for the **Text Generation Web UI**. The setup utilizes **NVIDIA CUDA** and **Ubuntu 22.04**, enabling accelerated AI workloads.
 
-🛠 Features
+##🛠 Features
 
 - **CUDA 12.2 Runtime**: Optimized for running LLMs on NVIDIA GPUs.
 - **Miniconda Environment**: Isolated Python environment for managing dependencies.
